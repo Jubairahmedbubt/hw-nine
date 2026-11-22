@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* header part stat */
+#headerpart{
+    padding: 30px ;
+    /* background-color: orange; */
+        background-color: #07110D;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    column-gap: 40px;
+     
+}
+
+.menu ul li a{
+    color: #9DB3A8;
+    font-size: 15px;
+    font-width: 500;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.menu{
+    display: flex ;
+    column-gap: 40px;
+    align-items:center ;
+   
+  
+}
+.menu .headerbutton{
+    padding: 12px 22px;
+    background: #1FB57F;
+    border-radius: 999px;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    color: #07110D;
+    font-size: 14px;
+}
+
+/* bannerpart start */
+#bannerpart{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #07110D;
+
+}
+
+.bannerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerleft{
+    width: 60%;
+}
+.bannerright{
+    height: 40%;
+    position: relative;
+}
+
+.bannerright img{
+    width: 100%;
+    
+}
+.rankcard{
+    padding: 18px 22px;
+    background: #07110D;
+    border-radius: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+}
+.rankcard h3{
+    color: #F4EFE6;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight:400;
+    font-size: 28px;
+
+}
+.rankcard p{
+
+    color: #9DB3A8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.bannerleft h4{
+    color: #1FB57F;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    padding-left: 55px;
+}
+.bannerleft h1{
+    padding: 28px 0;
+    color: #F4EFE6;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 148px;
+    width: 456px; 
+    height: 390px;
+    line-height: 0.9;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.bannerleft p{
+    color: #9DB3A8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    width: 560px;
+    line-height: 155%;
+    padding-bottom: 28px;
+}
+.bannerleft a{
+    color: #F4EFE6;
+    background-color: red;
+    border-radius: 999px;
+    padding: 16px 28px; 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: 1px solid red;
+    
+}
+.aflex{
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;   
+}
+
+
+.bannerleft h4::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background-color: red;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.bannerleft a:hover{
+    background: transparent;
+    border: 1px solid white;
+    
+}
+/* bannerpart end */
